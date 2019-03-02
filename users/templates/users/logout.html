@@ -1,0 +1,10 @@
+{% extends "blog/layout.html"%}
+{% block content%}
+<h3>Your now logged out</h3>
+    
+    <div class="border-top pt-3">
+        <small class="tex-muted">
+            <a class="ml-2" href="{% url 'login'%}">Repeat Log In</a>
+        </small>
+    </div>  
+{% endblock content %}
